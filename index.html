@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YSBS Mino Martani - Yayasan Sosial Bina Sejahtera | Dunia Ramah Anak</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="images/logo.jpeg">
+    <link rel="apple-touch-icon" href="images/logo.jpeg">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="YSBS Mino Martani adalah organisasi kemanusiaan yang berfokus pada pendampingan tumbuh kembang anak di 12 desa Kabupaten Cilacap dan Banyumas. Mewujudkan dunia yang ramah anak.">
+    <meta name="keywords" content="YSBS, Mino Martani, Yayasan Sosial Bina Sejahtera, pendidikan anak, kesehatan anak, perlindungan anak, Cilacap, Banyumas, PAUD, parenting">
+    <meta name="author" content="YSBS Mino Martani">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ysbs-minomartani.org/">
+    <meta property="og:title" content="YSBS Mino Martani - Yayasan Sosial Bina Sejahtera">
+    <meta property="og:description" content="Menjadi lembaga pendukung yang kompeten untuk terwujudnya dunia yang ramah anak. Pendampingan tumbuh kembang anak di 12 desa Cilacap dan Banyumas.">
+    <meta property="og:image" content="images/logo.jpeg">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://ysbs-minomartani.org/">
+    <meta name="twitter:title" content="YSBS Mino Martani - Yayasan Sosial Bina Sejahtera">
+    <meta name="twitter:description" content="Menjadi lembaga pendukung yang kompeten untuk terwujudnya dunia yang ramah anak.">
+    <meta name="twitter:image" content="images/logo.jpeg">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Decorative Floating Shapes -->
+    <div class="floating-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+
+    <!-- Welcome Splash Screen -->
+    <div class="welcome-overlay" id="welcomeOverlay">
+        <div class="welcome-content">
+            <img src="images/Maskot Mino.png" alt="Welcome" class="welcome-character">
+            <h1>Halo!</h1>
+            <p>Selamat datang di website <strong>YSBS Mino Martani</strong>. Mari bersama-sama mewujudkan dunia yang lebih ramah anak! 🌟</p>
+            <button class="welcome-btn" onclick="closeWelcome()">Lanjut</button>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="images/Logo Mino.jpg" alt="Logo YSBS">
+            <span>YSBS MINO MARTANI</span>
+        </div>
+        <div class="nav-links">
+            <a href="#about">Tentang Kami</a>
+            <a href="#services">Layanan</a>
+            <a href="#program">Program</a>
+            <a href="#dokumentasi">Dokumentasi</a>
+            <a href="#struktur">Struktur Organisasi</a>
+            <a href="#contact" class="btn-contact">Kontak Kami</a>
+        </div>
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    
+    <!-- Mobile Menu -->
+    <div class="menu-backdrop" onclick="toggleMenu()"></div>
+    <div class="mobile-menu">
+        <a href="#about" onclick="toggleMenu()">Tentang Kami</a>
+        <a href="#services" onclick="toggleMenu()">Layanan</a>
+        <a href="#program" onclick="toggleMenu()">Program</a>
+        <a href="#dokumentasi" onclick="toggleMenu()">Dokumentasi</a>
+        <a href="#struktur" onclick="toggleMenu()">Struktur Organisasi</a>
+        <a href="#contact" class="btn-contact" onclick="toggleMenu()">Kontak Kami</a>
+    </div>
+            <a href="#struktur">Struktur</a>
+            <a href="#dokumentasi">Dokumentasi</a>
+            <a href="#contact" class="btn-contact">Hubungi Kami</a>
+        </div>
+    </nav>
+
+    <div class="hero-opening-image" data-aos="zoom-in" data-aos-duration="1200">
+        <img src="images/opening.png" alt="Gedung YSBS Mino Martani" class="opening-photo">
+    </div>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Yayasan Sosial Bina Sejahtera <br> (YSBS) MINO MARTANI</h1>
+            <p>"Menjadi lembaga pendukung yang kompeten untuk terwujudnya dunia yang ramah anak"</p>
+            <a href="#about" class="hero-btn">Lihat Profil Lengkap</a>
+        </div>
+    </header>
+
+    <div class="container">
+        
+        <section id="about" class="section">
+            <div class="section-title animate-on-scroll">
+                <h2>Tentang Kami & Sejarah</h2>
+                <div class="line"></div>
+            </div>
+            <div class="about-content animate-on-scroll">
+                <p>Yayasan Sosial Bina Sejahtera (YSBS) adalah organisasi kemanusiaan yang resmi berdiri pada 12 Maret 1976. Kami berfokus pada pemberdayaan masyarakat melalui akses pendidikan, kesehatan, dan infrastruktur vital. Unit Mino Martani secara khusus mendukung tumbuh dan kembang anak di 12 desa wilayah Cilacap dan Banyumas.</p>
+                
+                <div class="history-box animate-on-scroll">
+                    <h4>Sejarah Singkat</h4>
+                    <p>YSBS diinisiasi oleh <b>Rm. Carolus Burrows, O.M.I</b>, seorang ekspatriat asal Finlandia yang memiliki kepedulian tinggi terhadap persoalan sosial kemanusiaan di Indonesia. Yayasan ini bertujuan membantu masyarakat golongan miskin dan lemah. Secara legalitas, YSBS telah disahkan melalui Keputusan Menteri Hukum & Hak Asasi Manusia Nomor: <b>AHU-06814.50.10.2014</b> pada tanggal 29 September 2014.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="visi-misi-wrapper">
+                <div class="container">
+                    <h2>Visi & Misi</h2>
+                    <div class="vm-grid">
+                        <div class="vm-card animate-on-scroll">
+                            <h3><i class="fas fa-lightbulb"></i> Visi</h3>
+                            <p>Menjadi lembaga pendukung yang kompeten untuk terwujudnya dunia yang ramah anak.</p>
+                        </div>
+                        <div class="vm-card animate-on-scroll">
+                            <h3><i class="fas fa-rocket"></i> Misi</h3>
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> Meningkatkan kemampuan sumber daya, inovasi program, dan kolaborasi multi pihak.</li>
+                                <li><i class="fas fa-check-circle"></i> Meningkatkan peran serta Masyarakat dan satuan Pendidikan untuk melindungi anak dari risiko bencana.</li>
+                                <li><i class="fas fa-check-circle"></i> Mendorong terwujudnya pendekatan Pendidikan dan pengasuhan yang Positif.</li>
+                                <li><i class="fas fa-check-circle"></i> Memastikan adanya dukungan kebijakan pemerintah dalam pemenuhan hak anak.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section">
+            <div class="section-title" data-aos="fade-down">
+                <h2>Unit Layanan YSBS</h2>
+                <div class="line"></div>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="0">
+                    <h3>1. Unit Pendidikan</h3>
+                    <ul><li>Mengelola 6 TK, 2 SD, 7 SMP, 7 SMK/SMA & 1 LKP yang tersebar di Kabupaten Cilacap & Kabupaten Banyumas.</li><li>Memberikan beasiswa kepada murid berprestasi di sekolah-sekolah YSBS dalam bentuk kambing untuk dikembangkan.</li></ul>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <h3>2. Unit Kesehatan</h3>
+                    <ul><li>Balai Pengobatan Yos Sudarso di Kabupaten Cilacap, Jawa Tengah.</li><li>Memfasilitasi kelompok difabel & penderita penyakit berat mendapatkan dukungan peralatan dan pengobatan.</li></ul>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <h3>3. Unit Kelompok Swadaya Wanita</h3>
+                    <p>Memberikan pendampingan kepada 192 kelompok dengan 992 anggota KSW yang tersebar di Kabupaten Cilacap untuk peningkatkan pendapatan keluarga.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <h3>4. Unit Infrastruktur</h3>
+                    <p>Memberikan bantuan pembangunan bendungan dan irigasi pertanian di 4 desa Kecamatan Kampung Laut yang tersebar di Kabupaten Cilacap untuk peningkatkan pendapatan keluarga.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <h3>5. Unit Lingkungan</h3>
+                    <p>Melakukan penghijauan lingkungan melalui pembuatan demplot pembibitan dan penanaman pohon di area Nusakambangan Kab. Banyumas, Jawa Tengah.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <h3>6. Unit Tanggap Darurat</h3>
+                    <p>Memberikan bantuan kepada masyarakat yang mengalami dampak bencana di seluruh wilayah Indonesia.</p>
+                </div>
+                <div class="service-card highlight-card" data-aos="zoom-in" data-aos-delay="600">
+                    <h3>7. Unit Mino Martani</h3>
+                    <p><b>(Unit Kami)</b> Pendampingan tumbuh & kembang anak di 12 desa Kabupaten Cilacap dan Banyumas.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="program" class="section">
+            <div class="section-title" data-aos="fade-down">
+                <h2>Program & Best Practices</h2>
+                <div class="line"></div>
+            </div>
+            
+            <div class="program-container">
+                <div class="program-list-box green" data-aos="fade-right" data-aos-delay="100">
+                    <h3>Program</h3>
+                    <ul class="modern-list">
+                        <li><i class="fas fa-check-circle"></i> Pendampingan Kelompok Orang Tua dalam hal pengasuhan dengan program Kelompok Bermain Keluarga (KBK) & Parenting.</li>
+                        <li><i class="fas fa-check-circle"></i> Program Pengembangan Pendidikan Anak Usia Dini (PAUD).</li>
+                        <li><i class="fas fa-check-circle"></i> Penguatan Kapasitas Tutor PAUD & Fasilitator kegiatan.</li>
+                        <li><i class="fas fa-check-circle"></i> Pendampingan Kesehatan Balita bekerjasama dengan posyandu.</li>
+                        <li><i class="fas fa-check-circle"></i> Parenting Responsif untuk orang tua anak usia 0-5 Th.</li>
+                        <li><i class="fas fa-check-circle"></i> Kelompok Belajar untuk anak usia SD dan SMP.</li>
+                        <li><i class="fas fa-check-circle"></i> Kegiatan Aflatoun/PKHLK (Pendidikan Kecakapan Hidup Literasi Keuangan) untuk anak usia SD & SMP.</li>
+                        <li><i class="fas fa-check-circle"></i> Kegiatan Orang Muda usia 15-24 tahun yang mengarah pada pengembangan Life Skills & Kewirausahaan.</li>
+                        <li><i class="fas fa-check-circle"></i> Sosialisasi berjangka tentang Perlindungan Anak.</li>
+                        <li><i class="fas fa-check-circle"></i> Pembentukan Tim Perlindungan Anak terpadu Berbasis Masyarakat(PAtBM).</li>
+                        <li><i class="fas fa-check-circle"></i> Pendampingan Wirausaha Orang Muda & Dunia Kerja.</li>
+                        <li><i class="fas fa-check-circle"></i> Peningkatan kapasitas staff dan PIC/penanggungjawab program.</li>
+                    </ul>
+                </div>
+
+                <div class="program-list-box orange" data-aos="fade-left" data-aos-delay="300">
+                    <h3>Best Practices</h3>
+                    <ul class="modern-list">
+                        <li><i class="fas fa-star"></i> Pendekatan penguatan PATBM direplikasi oleh Dinas DPPKBP3A Kabupaten Cilacap & Banyumas di desa-desa luar lokasi program.</li>
+                        <li><i class="fas fa-star"></i> Program PRIME diapresiasi oleh pemerintah Kabupaten Cilacap & Banyumas sebagai salah satu best practices dalam penilaian Kabupaten Layak Anak.</li>
+                        <li><i class="fas fa-star"></i> Terbentuknya kelompok usaha orang muda yang memanfaatkan potensi lokal sebagai basis pengembangan usaha.</li>
+                        <li><i class="fas fa-star"></i> Program Positif Parenting mendapatkan dukungan kebijakan & anggaran dari 1(satu) Pemerintah Desa.</li>
+                        <li><i class="fas fa-star"></i> Program Responsive Parenting terbukti efektif merubah pola pengasuhan anak dan berdampak mengurangi praktik-praktik kekerasan terhadap anak.</li>
+                        <li><i class="fas fa-star"></i> Adanya 40 Fasilitator Positif Parenting terlatih dan berfungsi cukup efektif di 3 desa lokasi program.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-title">
+                <h2>Isu Strategis</h2>
+                <div class="line"></div>
+            </div>
+            <p style="text-align: center; margin-bottom: 20px;">Berikut adalah ringkasan isu strategis kami:</p>
+            
+            <img alt="Isu Strategis YSBS" class="doc-image" src="images/isu_strategis.png" />
+        </section>
+
+        <section id="dokumentasi" class="section">
+            <div class="section-title" data-aos="fade-down">
+                <h2>Dokumentasi Kegiatan YSBS</h2>
+                <div class="line"></div>
+            </div>
+            <p style="text-align: center; margin-bottom: 30px; font-size: 1.1rem; color: #666;" data-aos="fade-up">Galeri foto dan video kegiatan program-program terbaru YSBS Mino Martani</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="0">
+                    <img src="images/ToF Pemetaan Perlindungan Anak.jpeg" alt="Training Of Facilitator (ToF)">
+                    <div class="overlay">
+                        <h4>Training of Facilitator (ToF) Pemetaan dan Perlindungan Anak</h4>
+                        <p>Kolaka Larantuka, 17-21 November 2025</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="images/Event Sentuh.jpg" alt="Event SENTUH">
+                    <div class="overlay">
+                        <h4>SENTUH (Sekolah dan Orang Tua Bersatu untuk Tumbuh)</h4>
+                        <p>SD N Panikel 03, 11 Desember 2025</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="images/Youth Capacity Enhancement.jpg" alt="Youth Capacity Enhancement">
+                    <div class="overlay">
+                        <h4>Youth Capacity Enhancement 2025 (Kunjungan Industri)</h4>
+                        <p>TPA Berbasis Lingkungan & Edukasi, 18 Oktober 2025</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="images/Sekolah Hijau.jpg" alt="SEKOLAH HIJAU">
+                    <div class="overlay">
+                        <h4>Sosialisasi Program Sekolah Hijau</h4>
+                        <p>SMP N 2 Kampung Laut, 2 Januari 2026</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+                    <img src="images/Workshop Pengasuhan Responsif.jpg" alt="Workshop Pengasuhan Responsif">
+                    <div class="overlay">
+                        <h4>Workshop Pengasuhan Responsif HIMPAUDI Kab. Cilacap</h4>
+                        <p>Kamis, 20 November 2025</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="500">
+                    <img src="images/Pemetaan Dampak Program Learning.jpg" alt="Program Learning">
+                    <div class="overlay">
+                        <h4>Pemetaan Dampak Program Learning Tingkat Desa</h4>
+                        <p>Desa Ujunggagak, Panikel, Ujungalang, dan Places</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="struktur" class="section">
+            <div class="section-title animate-on-scroll">
+                <h2>Struktur Organisasi</h2>
+                <div class="line"></div>
+            </div>
+            <p style="text-align: center; margin-bottom: 30px; font-size: 1.1rem; color: #666;" class="animate-on-scroll">Struktur Organisasi dan Komposisi Personil YSBS Mino Martani</p>
+            
+            <div class="org-structure-container animate-on-scroll">
+                <div class="org-structure-wrapper">
+                    <div class="org-structure-image-container">
+                        <img src="images/Struktur Organisasi Mino.png" alt="Struktur Organisasi YSBS Mino Martani" class="org-structure-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section" data-aos="zoom-in">
+            <div class="cta-content">
+                <h2>Bergabunglah Bersama Kami!</h2>
+                <p>Mari bersama-sama mewujudkan dunia yang lebih ramah anak. Kontribusi Anda sangat berarti untuk masa depan anak-anak Indonesia.</p>
+                <div class="cta-buttons">
+                    <a href="https://wa.me/622816844925?text=Halo,%20saya%20ingin%20mendukung%20program%20YSBS" target="_blank" class="cta-btn cta-btn-primary">
+                        <i class="fas fa-heart"></i> Dukung Program Kami
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>YSBS Mino Martani</h4>
+                    <p>Mewujudkan masa depan anak yang lebih baik melalui kolaborasi dan aksi nyata.</p>
+                    <div class="map-container">
+                        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=Jl.+Dolog+Indah+No+685,+Sokaraja,+Banyumas&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Kontak Kami</h4>
+                    
+                    <a href="https://www.google.com/maps/search/?api=1&query=Jl.+Dolog+Indah+No+685,+Sokaraja,+Banyumas" target="_blank" class="contact-link">
+                        <i class="fas fa-map-marker-alt"></i> Jl. Dolog Indah No 685 Sokaraja, Banyumas
+                    </a>
+                    
+                    <a href="https://wa.me/622816844925" target="_blank" class="contact-link">
+                        <i class="fas fa-phone"></i> +62 281 684 49 25 (WhatsApp)
+                    </a>
+                    
+                    <a href="mailto:mino_martani@yahoo.com" class="contact-link">
+                        <i class="fas fa-envelope"></i> mino_martani@yahoo.com
+                    </a>
+                </div>
+                <div class="footer-col">
+                    <h4>Media Sosial</h4>
+                    <a href="https://instagram.com/mino.martani_ysbs" target="_blank" class="contact-link"><i class="fab fa-instagram"></i> Instagram</a>
+                    <a href="https://www.youtube.com/@Minomartani-YSBS" target="_blank" class="contact-link"><i class="fab fa-youtube"></i> YouTube</a>
+                    <a href="https://www.tiktok.com/@ysbs.mino_martani" target="_blank" class="contact-link"><i class="fab fa-tiktok"></i> TikTok</a>
+                </div>
+            </div>
+            <div class="copyright">
+                © 2026 YSBS Mino Martani. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/622816844925" class="wa-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <div class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- AOS Animation Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // Welcome Screen
+        function closeWelcome() {
+            const overlay = document.getElementById('welcomeOverlay');
+            overlay.classList.add('hide');
+            document.body.classList.remove('no-scroll');
+            setTimeout(() => {
+                overlay.style.display = 'none';
+            }, 500);
+        }
+        
+        // Prevent scroll when welcome screen is visible
+        window.addEventListener('load', function() {
+            document.body.classList.add('no-scroll');
+        });
+        
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            easing: 'ease-in-out',
+            once: true,
+            mirror: false,
+            offset: 100
+        });
+        
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.style.padding = '10px 5%';
+            } else {
+                navbar.style.padding = '15px 5%';
+            }
+        });
+        
+        // Back to Top Button
+        const backToTopBtn = document.getElementById('backToTop');
+        
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 300) {
+                backToTopBtn.classList.add('show');
+            } else {
+                backToTopBtn.classList.remove('show');
+            }
+        });
+        
+        backToTopBtn.addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        
+        // Opening Photo Fade on Scroll
+        const openingPhoto = document.querySelector('.opening-photo');
+        const openingContainer = document.querySelector('.hero-opening-image');
+        
+        window.addEventListener('scroll', function() {
+            const scrolled = window.scrollY;
+            const fadeStart = 0;
+            const fadeEnd = 400;
+            
+            if (scrolled <= fadeStart) {
+                openingPhoto.style.opacity = '1';
+                openingPhoto.style.transform = 'scale(1)';
+            } else if (scrolled >= fadeEnd) {
+                openingPhoto.style.opacity = '0';
+                openingPhoto.style.transform = 'scale(0.95)';
+            } else {
+                const opacity = 1 - (scrolled - fadeStart) / (fadeEnd - fadeStart);
+                const scale = 1 - ((scrolled - fadeStart) / (fadeEnd - fadeStart)) * 0.05;
+                openingPhoto.style.opacity = opacity;
+                openingPhoto.style.transform = `scale(${scale})`;
+            }
+        });
+        
+        // Hamburger Menu Toggle
+        function toggleMenu() {
+            const hamburger = document.querySelector('.hamburger');
+            const mobileMenu = document.querySelector('.mobile-menu');
+            const backdrop = document.querySelector('.menu-backdrop');
+            const body = document.body;
+            
+            hamburger.classList.toggle('active');
+            mobileMenu.classList.toggle('active');
+            backdrop.classList.toggle('active');
+            body.classList.toggle('no-scroll');
+        }
+
+        // Custom Scroll Animation (Safe, No Overflow)
+        const animateElements = document.querySelectorAll('.animate-on-scroll');
+        
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animated');
+                }
+            });
+        }, observerOptions);
+        
+        animateElements.forEach(element => {
+            observer.observe(element);
+        });
+    </script>
+
+</body>
+</html>
