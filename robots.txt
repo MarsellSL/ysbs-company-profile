@@ -1,0 +1,12 @@
+# robots.txt untuk YSBS Mino Martani
+User-agent: *
+Allow: /
+
+# Blokir akses ke file sensitif
+Disallow: /vercel.json
+Disallow: /.git/
+Disallow: /*.log
+Disallow: /*.json
+
+# Sitemap
+Sitemap: https://ysbsminomartani.vercel.app/sitemap.xml
